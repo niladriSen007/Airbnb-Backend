@@ -1,5 +1,6 @@
-import { pingController } from "./basic.controller"
+import { services } from "../services"
+import { BookingController } from "./booking.controller"
 
-export {
-  pingController
+export const controllers =  {
+  bookingController: new BookingController(services?.bookingService)
 }
