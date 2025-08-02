@@ -1,0 +1,33 @@
+{"level":"info","message":"Server is running on http://localhost:4000","timestamp":"08-02-2025 14:20:29","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"08-02-2025 14:20:29","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"08-02-2025 14:20:29","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"08-02-2025 14:25:12","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"08-02-2025 14:25:12","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"08-02-2025 14:25:12","data":{}}
+{"level":"info","message":"Booking created successfully","timestamp":"08-02-2025 14:25:13","data":{}}
+{"level":"info","message":"Confirming a booking","timestamp":"08-02-2025 14:34:58","data":{}}
+{"level":"info","message":"Booking confirmed successfully","timestamp":"08-02-2025 14:34:58","data":{}}
+{"level":"info","message":"Server is running on http://localhost:4000","timestamp":"08-02-2025 14:37:15","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"08-02-2025 14:37:15","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"08-02-2025 14:37:15","data":{}}
+{"level":"info","message":"Server is running on http://localhost:4000","timestamp":"08-02-2025 14:37:17","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"08-02-2025 14:37:17","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"08-02-2025 14:37:17","data":{}}
+{"level":"info","message":"Server is running on http://localhost:4000","timestamp":"08-02-2025 14:37:20","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"08-02-2025 14:37:20","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"08-02-2025 14:37:20","data":{}}
+{"level":"info","message":"Server is running on http://localhost:4000","timestamp":"08-02-2025 14:37:38","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"08-02-2025 14:37:38","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"08-02-2025 14:37:38","data":{}}
+{"level":"info","message":"Confirming a booking","timestamp":"08-02-2025 14:37:43","data":{}}
+{"level":"error","message":"Error confirming a booking","timestamp":"08-02-2025 14:37:43","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"08-02-2025 14:38:06","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"08-02-2025 14:38:06","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"08-02-2025 14:38:06","data":{}}
+{"level":"info","message":"Booking created successfully","timestamp":"08-02-2025 14:38:06","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"08-02-2025 14:38:08","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"08-02-2025 14:38:08","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"08-02-2025 14:38:08","data":{}}
+{"level":"info","message":"Booking created successfully","timestamp":"08-02-2025 14:38:08","data":{}}
+{"level":"info","message":"Confirming a booking","timestamp":"08-02-2025 14:38:22","data":{}}
+{"level":"info","message":"Booking confirmed successfully","timestamp":"08-02-2025 14:38:22","data":{}}
