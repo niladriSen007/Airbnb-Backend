@@ -1,14 +1,17 @@
+import { Prisma,IdempotencyKey } from "@prisma/client";
 import prismaClient from "../../prisma/client";
+import { validate as isValidUUID } from "uuid"
+import { BadRequestError } from "../../utils/errors/app.error";
 
 export class IdempotencyRepository {
 
-  async createIdempotencyKey(bookingiD: number, key: string) {
+  async createIdempotencyKey(bookingId: number, key: string) {
     const idempotencyKey = await prismaClient?.idempotencyKey?.create({
       data: {
-        key: key,
+        idemKey: key,
         booking: {
           connect: {
-            id: bookingiD
+            id: bookingId
           }
         }
       }
@@ -18,20 +21,31 @@ export class IdempotencyRepository {
   }
 
 
-  async getIdempotencyKey(key: string) {
-    const idempotencyKey = await prismaClient?.idempotencyKey?.findUnique({
-      where: {
-        key: key
-      }
-    })
+  async getIdempotencyKeyWithLock(tx: Prisma.TransactionClient,key: string ) {
 
-    return idempotencyKey
+    const isValid = isValidUUID(key)
+    if (!isValid) {
+      throw new BadRequestError("Invalid idempotency key")
+    }
+
+    const idempotencyKey : Array<IdempotencyKey> = await tx.$queryRaw`
+      SELECT *
+      FROM IdempotencyKey
+      WHERE idemKey = ${key}
+      FOR UPDATE;
+    `
+
+    if(!idempotencyKey|| idempotencyKey?.length === 0) {
+      throw new BadRequestError("Invalid idempotency key")
+    }
+
+    return idempotencyKey[0]
   }
 
-  async finalizeIdempotencyKey(key: string) {
-    const idempotencyKey = await prismaClient?.idempotencyKey?.update({
+  async finalizeIdempotencyKey(tx: Prisma.TransactionClient,key: string) {
+    const idempotencyKey = await tx?.idempotencyKey?.update({
       where: {
-        key: key
+        idemKey: key
       },
       data: {
         finalized: true

@@ -13,8 +13,8 @@ export class BookingRepository {
     return booking
   }
 
-  async confirmBooking(bookingId: number) {
-    const booking = await prismaClient?.booking.update({ where: { id: bookingId }, data: { status: "CONFIRMED" } })
+  async confirmBooking(tx: Prisma.TransactionClient, bookingId: number) {
+    const booking = await tx?.booking.update({ where: { id: bookingId }, data: { status: "CONFIRMED" } })
     return booking
   }
 
