@@ -1,4 +1,5 @@
 export type ServerConfig = {
-  REDIS_SERVER_URL: string
   PORT: number
+  REDIS_PORT: number
+  REDIS_HOST: string
 }
