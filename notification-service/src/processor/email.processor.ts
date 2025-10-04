@@ -3,6 +3,9 @@ import { NotificationDto } from "../dto/notification.dto";
 import { MAILER_QUEUE } from "../queue/mailer.queue";
 import { getRedisConnObject } from "../config/redis.config";
 import { MAILER_PAYLOAD } from "../producers/email.producer";
+import { renderMailTemplate } from "../templat/template.handler";
+import { logger } from "../config/logger.config";
+import { MailerService } from "../services/mailer.service";
 
 
 export function setupMailerWorker() {
@@ -17,16 +20,25 @@ export function setupMailerWorker() {
       const payload = job.data;
       console.log(`Processing email: ${JSON.stringify(payload)}`);
 
+
+      const emailContent = await renderMailTemplate(payload.templateId, payload.params)
+
+      //send email using nodemailer
+      const newMailerInstance = new MailerService()
+      await newMailerInstance.sendMail(payload.to, payload.subject, emailContent)
+
+      logger.info(`Email sent to ${payload.to} with subject "${payload.subject}"`);
+
     }, {
-    connection: getRedisConnObject()
-  }
+      connection: getRedisConnObject()
+    }
   )
 
-  emailProcessor.on("completed", (job) => {
-    console.log(`Email processing successfully`)
+  emailProcessor.on("completed", () => {
+    console.log(`Email processed successfully`)
   })
 
-  emailProcessor.on("failed", (job, err) => {
-    console.log(`Email processing failed`)
+  emailProcessor.on("failed", (_, err) => {
+    console.log(`Email processing failed: ${err.message}`)
   })
 }

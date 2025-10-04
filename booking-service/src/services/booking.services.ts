@@ -39,7 +39,7 @@ export class BookingService {
         bookingId: booking?.id,
         idempotencyKey
       }
-    } catch (error) {
+    } catch {
       throw new InternalServerError('Failed to acquire lock for booking resource');
     }
   }

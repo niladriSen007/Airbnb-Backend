@@ -1,0 +1,207 @@
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 13:40:38","data":{}}
+{"level":"info","message":"Server is running on http://localhost:4000","timestamp":"10-04-2025 13:40:39","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"10-04-2025 13:40:39","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"10-04-2025 13:40:39","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 13:43:30","data":{}}
+{"level":"info","message":"Server is running on http://localhost:4000","timestamp":"10-04-2025 13:43:30","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"10-04-2025 13:43:30","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"10-04-2025 13:43:30","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 13:43:49","data":{}}
+{"level":"info","message":"Server is running on http://localhost:4000","timestamp":"10-04-2025 13:43:49","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"10-04-2025 13:43:49","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"10-04-2025 13:43:49","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 13:48:50","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 13:48:50","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 13:48:50","data":{}}
+{"level":"info","message":"Booking created successfully","timestamp":"10-04-2025 13:48:50","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 13:48:58","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 13:48:58","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 13:48:58","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 13:49:00","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:20","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:21","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:21","data":{}}
+{"level":"info","message":"Booking created successfully","timestamp":"10-04-2025 14:02:21","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:21","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:21","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:21","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:22","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:23","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:23","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:23","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:25","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:25","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:25","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:25","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:27","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:27","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:27","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:27","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:30","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:30","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:30","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:30","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:32","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:32","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:32","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:32","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:34","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:34","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:34","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:34","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:36","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:36","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:36","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:36","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:39","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:39","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:39","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:39","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:42","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"10-04-2025 14:02:42","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"10-04-2025 14:02:42","data":{}}
+{"level":"info","message":"Creating a new booking","timestamp":"10-04-2025 14:02:42","data":{}}
+{"level":"error","message":"Error creating a new booking","timestamp":"10-04-2025 14:02:44","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:11:34","data":{}}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:11:34","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:11:34","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:11:34","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:12:10","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:12:10","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:12:10","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:12:10","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:12:30","data":{}}
+{"level":"info","message":"Server is running on port 4000","timestamp":"10-04-2025 15:12:30","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:12:30","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:12:30","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:12:32","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:12:32","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:12:32","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:12:44","data":{}}
+{"level":"info","message":"Server is running on port 4000","timestamp":"10-04-2025 15:12:44","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"10-04-2025 15:12:44","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"10-04-2025 15:12:44","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:12:46","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:12:46","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:12:46","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:12:46","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:12:47","data":{}}
+{"level":"info","message":"Server is running on port 4000","timestamp":"10-04-2025 15:12:47","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"10-04-2025 15:12:47","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"10-04-2025 15:12:47","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:12:54","data":{}}
+{"level":"info","message":"Server is running on port 4000","timestamp":"10-04-2025 15:12:55","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"10-04-2025 15:12:55","data":{}}
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"10-04-2025 15:12:55","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:13:13","data":{}}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:13:13","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:13:13","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:13:13","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:13:52","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:13:52","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:13:52","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:13:52","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:05","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:14:05","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:05","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:05","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:09","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port \u001b[1m4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:14:10","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:10","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:10","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:24","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:14:24","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:24","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:24","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:25","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:14:25","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:25","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:25","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:27","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:14:28","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:28","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:28","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:30","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:14:30","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:30","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:30","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:36","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port (4000)\u001b[39m","timestamp":"10-04-2025 15:14:37","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:37","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:37","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:39","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port (4000) - undefined mode\u001b[39m","timestamp":"10-04-2025 15:14:39","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:39","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:39","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:39","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port (4000)\u001b[39m","timestamp":"10-04-2025 15:14:40","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:40","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:40","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:14:40","data":{}}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:14:41","data":{}}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:14:41","data":{}}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:14:41","data":{}}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:16:14"}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:16:14"}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:16:14"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:16:14"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:16:22"}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:16:22"}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:16:22"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:16:22"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:16:31"}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:16:32"}
+{"level":"info","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:16:32"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:16:32"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:16:45"}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:16:45"}
+{"level":"warn","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:16:45"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:16:45"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:16:50"}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:16:51"}
+{"level":"warn","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:16:51"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:16:51"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:17:07"}
+{"level":"info","message":"\u001b[34mServer is running on port 4000\u001b[39m","timestamp":"10-04-2025 15:17:07"}
+{"level":"warn","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:17:07"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:17:07"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:17:24"}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:24"}
+{"level":"warn","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:17:24"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:17:24"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:17:29"}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:29"}
+{"level":"warn","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:17:29"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:17:29"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:17:32"}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:32"}
+{"level":"warn","message":"\u001b[33m\u001b[1mPress Ctrl+C to stop the server.\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:32"}
+{"level":"info","message":"\u001b[32m\u001b[1mDatabase connection has been established successfully.\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:32"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:17:37"}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:38"}
+{"level":"warn","message":"\u001b[33m\u001b[1mPress Ctrl+C to stop the server.\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:38"}
+{"level":"info","message":"\u001b[32m\u001b[1mDatabase connection has been established successfully.\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:38"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:17:49"}
+{"level":"info","message":"\u001b[34m\u001b[1m\u001b[46mServer is running on port 4000\u001b[49m\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:49"}
+{"level":"warn","message":"\u001b[33m\u001b[1mPress Ctrl+C to stop the server.\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:49"}
+{"level":"info","message":"\u001b[32m\u001b[1mDatabase connection has been established successfully.\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:49"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:17:54"}
+{"level":"info","message":"\u001b[34m\u001b[1m\u001b[46mServer is running on port 4000\u001b[49m\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:54"}
+{"level":"warn","message":"\u001b[33m\u001b[1m\u001b[46mPress Ctrl+C to stop the server.\u001b[49m\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:54"}
+{"level":"info","message":"\u001b[32m\u001b[1m\u001b[46mDatabase connection has been established successfully.\u001b[49m\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:54"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:17:59"}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:59"}
+{"level":"warn","message":"\u001b[33m\u001b[1mPress Ctrl+C to stop the server.\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:59"}
+{"level":"info","message":"\u001b[32m\u001b[1mDatabase connection has been established successfully.\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:17:59"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:18:06"}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:18:06"}
+{"level":"warn","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:18:06"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:18:06"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 15:18:08"}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 15:18:08"}
+{"level":"warn","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 15:18:08"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 15:18:08"}
+{"level":"info","message":"Connected to Redis","timestamp":"10-04-2025 19:55:40"}
+{"level":"info","message":"\u001b[34m\u001b[1mServer is running on port 4000\u001b[22m\u001b[39m","timestamp":"10-04-2025 19:55:41"}
+{"level":"warn","message":"\u001b[33mPress Ctrl+C to stop the server.\u001b[39m","timestamp":"10-04-2025 19:55:41"}
+{"level":"info","message":"\u001b[32mDatabase connection has been established successfully.\u001b[39m","timestamp":"10-04-2025 19:55:41"}

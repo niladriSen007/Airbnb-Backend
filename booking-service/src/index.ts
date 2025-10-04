@@ -1,7 +1,7 @@
 import express from 'express';
 import { serverConfig } from "./config"
 import { genericErrorHandler, globalErrorHandler } from './middleware/error/error.middleware';
-import { logger } from './config/logger.config';
+import { loggers } from './config/logger.config';
 import apiRouter from './router';
 import { addEmailToQueue } from './producers/email.producer';
 
@@ -15,9 +15,9 @@ app.use(globalErrorHandler)
 app.use(genericErrorHandler)
 
 app.listen(serverConfig.PORT, async () => {
-  logger.info(`Server is running on http://localhost:${serverConfig.PORT}`);
-  logger.info(`Press Ctrl+C to stop the server.`);
-  logger.info('Database connection has been established successfully.');
+  loggers.info(`Server is running on port ${serverConfig.PORT}`);
+  loggers.warning(`Press Ctrl+C to stop the server.`);
+  loggers.success(`Database connection has been established successfully.`);
 
 
   addEmailToQueue({

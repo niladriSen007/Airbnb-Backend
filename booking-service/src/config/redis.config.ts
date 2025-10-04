@@ -1,5 +1,5 @@
 import IORedis, { Redis } from 'ioredis';
-import Redlock from 'redlock';
+import Redlock, { CompatibleRedisClient } from 'redlock';
 import { serverConfig } from '.';
 import { logger } from './logger.config';
 
@@ -23,7 +23,7 @@ function connectToRedis() {
 export const getRedisConnectionObject = connectToRedis();
 
 export const redlock = new Redlock(
-  [getRedisConnectionObject()],
+  [getRedisConnectionObject() as unknown as CompatibleRedisClient],
   {
     driftFactor: 0.01, // time in ms
     retryCount: 10,
