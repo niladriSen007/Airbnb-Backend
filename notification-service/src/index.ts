@@ -3,8 +3,8 @@ import { serverConfig } from "./config";
 import { logger } from './config/logger.config';
 import { genericErrorHandler, globalErrorHandler } from './middleware/error/error.middleware';
 import { setupMailerWorker } from './processor/email.processor';
+import { addEmailToQueue } from './producers/email.producer';
 import apiRouter from './router';
-import { renderMailTemplate } from './templat/template.handler';
 
 const app = express();
 
@@ -22,7 +22,13 @@ app.listen(serverConfig.PORT, async () => {
   setupMailerWorker();
   logger.info('Mailer worker has been set up successfully.');
 
-  const res = await renderMailTemplate("welcome", { name: "John Doe", appName: "BookingApp" });
+  await addEmailToQueue({
+    to: "senniladri62@gmail.com",
+    subject: "Test Email from Notification Service",
+    templateId: "welcome",
+    params: { name: "John Doe", appName: "Booking Service" }
 
-  console.log(`Test email template rendered successfully , content: ${res}`);
+  })
+
+  console.log(`Test email template rendered successfully`);
 });
